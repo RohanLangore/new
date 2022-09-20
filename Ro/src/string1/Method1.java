@@ -5,9 +5,9 @@ public class Method1 {
 	String s="hello";
 	
 /*	char s1[]= {'a','b','c'};
-	System.out.println(s1);*/
+	System.out.println(s1);  */
 /*	char ch=s.charAt(3);
-	System.out.println(ch);*/
+	System.out.println(ch);  */
 	
 	int count=0;
 	

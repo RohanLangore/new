@@ -1,7 +1,5 @@
 package Arrey;
-
 import java.util.Scanner;
-
 public class Search {
 
 	public static void main(String[] args) {
@@ -18,14 +16,10 @@ public class Search {
 				found = 1;
 				break;
 			}
-
 		}
-
 		if (found == 1) {
 			System.out.println("Element is present in the Arrey");
 		} else
 			System.out.println("Element not present in the Arrey");
-
 	}
-
 }

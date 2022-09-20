@@ -7,13 +7,15 @@ public class Finally {
 	{
 		try
 		{
-		int a=10/3;
+		int a=10/0;
 		System.out.println(a);
 		}
+		
 		catch(ArithmeticException e)
 		{
-			System.out.println("Divide by zero");
+			System.out.println("cannot Divide by zero");
 		}
+		
 		finally
 		{
 			System.out.println("file closed");

@@ -12,6 +12,7 @@ public class Immutable {
 			
 			String s="hello";
 			System.out.println(s.hashCode());
+			
 			s=s.concat("world");
 			
 			System.out.println(s.hashCode());

@@ -1,6 +1,7 @@
 package excep;
 
 public class EceptionPropagation {
+	
 	void method4() {
 		System.out.println("method4");
 	}
@@ -14,14 +15,15 @@ public class EceptionPropagation {
 	}
 
 	void method2() {
-
-		method3();
 		System.out.println("method2");
+		method3();
+		
 	}
 
 	void method1() {
+		System.out.println("method1");
 		method2();
-		System.out.println("method2");
+		
 	}
 
 	public static void main(String[] args) {

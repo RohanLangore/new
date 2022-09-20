@@ -9,6 +9,7 @@ public class Frequency {
 		for (int i = 0; i < arr.length; i++) {
 			int count = 1;
 			visited = false;
+			
 			for (int j = i - 1; j >= 0; j--) {
 				if (arr[i] == arr[j]) {
 					visited = true;

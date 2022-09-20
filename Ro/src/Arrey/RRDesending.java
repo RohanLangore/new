@@ -3,7 +3,9 @@ package Arrey;
 public class RRDesending {
 	
 	public static void main(String[] args) {
-	int[] arr = new int[] { 2, 4, 6, 7, 18, 12 };
+//you can also write--> int[] arr = new int[] { 2, 4, 6, 7, 18, 12 };
+		
+	int[] arr = { 2, 4, 6, 7, 18, 12 };
 	int temp = 0;
 	
 	for (int i = 0; i < arr.length; i++) {
@@ -15,9 +17,8 @@ public class RRDesending {
 			}
 		}
 	}
-	
 	System.out.println();
-	//System.out.println("Elements of array sorted in descending order: ");
+	
 	for (int i = 0; i < arr.length; i++) {
 		System.out.print(arr[i] + " ");
 	}

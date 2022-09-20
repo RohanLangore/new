@@ -13,7 +13,6 @@ public class Split {
 			{
 				count++;
 			}
-			
 		}
 		System.out.println(count+1);*/
 		

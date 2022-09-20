@@ -1,11 +1,8 @@
 package Arrey;
-
-import java.lang.reflect.Array;
-
 public class Sorting {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 5, 7, 23, 11 };
+		int arr[] = {  5, 7, 23, 11,1 };
 		// 1 5 7 11 23
 		for (int i = 0; i < arr.length; i++) {
 
@@ -18,10 +15,8 @@ public class Sorting {
 			}
 		}
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i]);
+			System.out.print(arr[i]+" ");
 		}
-
 		// System.out.println(arr[arr.length-1]);
-
 	}
 }

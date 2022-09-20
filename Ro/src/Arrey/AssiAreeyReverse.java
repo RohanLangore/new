@@ -15,7 +15,7 @@ public class AssiAreeyReverse {
 			int i;
 			
 			System.out.println("enter array elements");
-			for ( i = 0; i < 5; i++) {
+			for ( i = 0; i < n; i++) {
 				arr[i] = sc.nextInt();
 			}
 			
